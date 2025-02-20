@@ -1,12 +1,15 @@
 `use strict`;
-/** Напиши стрілочну функцію sortByDescendingFriendCount(users) , яка прийматиме один параметр
-users — масив об’єктів користувачів.
-Функція має повертати масив усіх користувачів, відсортованих за спаданням кількостій їх друзів 
-(властивість friends).
-Візьми код нижче і встав після оголошення своєї функції для перевірки коректності її роботи. 
-У консоль будуть виведені результати її роботи.
+/** Write an arrow function sortByDescendingFriendCount(users) that will take one parameter
+users — an array of user objects.
+The function should return an array of all users sorted by the number of their friends
+(the friends property).
 */
-
+/**Create a new sorted array without changing the original one.
+ *  Sort the array in descending order by number of friends,
+ *  if b has more friends than a, then b will come before a. */
+const sortByDescendingFriendCount = users => {
+  return users.toSorted((a, b) => b.friends.length - a.friends.length);
+};
 console.log(
   sortByDescendingFriendCount([
     {
