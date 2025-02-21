@@ -1,9 +1,4 @@
 `use strict`;
-/** Write an arrow function sortByDescendingFriendCount(users) that will take one parameter
-users — an array of user objects.
-The function should return an array of all users sorted by the number of their friends
-(the friends property).
-*/
 /**Create a new sorted array without changing the original one.
  *  Sort the array in descending order by number of friends,
  *  if b has more friends than a, then b will come before a. */
