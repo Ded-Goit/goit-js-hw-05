@@ -1,4 +1,4 @@
-`use strict`;
+'use strict';
 /**Create a new sorted array without changing the original one.
  *  Sort the array in descending order by number of friends,
  *  if b has more friends than a, then b will come before a. */

@@ -1,4 +1,4 @@
-`use strict`;
+'use strict';
 
 const getTotalBalanceByGender = (users, gender) =>
   /**Filtering, filter(user => user.gender === gender)

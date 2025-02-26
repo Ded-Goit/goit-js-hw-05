@@ -1,4 +1,4 @@
-`use strict`;
+'use strict';
 /** The function iterates through an array of objects,
  *  extracts the value of the key name from each object, 
  * and returns a new array of these values.*/
